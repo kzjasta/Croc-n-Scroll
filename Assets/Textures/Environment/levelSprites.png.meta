@@ -1,0 +1,2843 @@
+fileFormatVersion: 2
+guid: fe6ec44a8c31ab449bbc384f79585a7a
+timeCreated: 1461158014
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: levelSprites_0
+    21300002: levelSprites_1
+    21300004: levelSprites_2
+    21300006: levelSprites_3
+    21300008: levelSprites_4
+    21300010: levelSprites_5
+    21300012: levelSprites_6
+    21300014: levelSprites_7
+    21300016: levelSprites_8
+    21300018: levelSprites_9
+    21300020: levelSprites_10
+    21300022: levelSprites_11
+    21300024: levelSprites_12
+    21300026: levelSprites_13
+    21300028: levelSprites_14
+    21300030: levelSprites_15
+    21300032: levelSprites_16
+    21300034: levelSprites_17
+    21300036: levelSprites_18
+    21300038: levelSprites_19
+    21300040: levelSprites_20
+    21300042: levelSprites_21
+    21300044: levelSprites_22
+    21300046: levelSprites_23
+    21300048: levelSprites_24
+    21300050: levelSprites_25
+    21300052: levelSprites_26
+    21300054: levelSprites_27
+    21300056: levelSprites_28
+    21300058: levelSprites_29
+    21300060: levelSprites_30
+    21300062: levelSprites_31
+    21300064: levelSprites_32
+    21300066: levelSprites_33
+    21300068: levelSprites_34
+    21300070: levelSprites_35
+    21300072: levelSprites_36
+    21300074: levelSprites_37
+    21300076: levelSprites_38
+    21300078: levelSprites_39
+    21300080: levelSprites_40
+    21300082: levelSprites_41
+    21300084: levelSprites_42
+    21300086: levelSprites_43
+    21300088: levelSprites_44
+    21300090: levelSprites_45
+    21300092: levelSprites_46
+    21300094: levelSprites_47
+    21300096: levelSprites_48
+    21300098: levelSprites_49
+    21300100: levelSprites_50
+    21300102: levelSprites_51
+    21300104: levelSprites_52
+    21300106: levelSprites_53
+    21300108: levelSprites_54
+    21300110: levelSprites_55
+    21300112: levelSprites_56
+    21300114: levelSprites_57
+    21300116: levelSprites_58
+    21300118: levelSprites_59
+    21300120: levelSprites_60
+    21300122: levelSprites_61
+    21300124: levelSprites_62
+    21300126: levelSprites_63
+    21300128: levelSprites_64
+    21300130: levelSprites_65
+    21300132: levelSprites_66
+    21300134: levelSprites_67
+    21300136: levelSprites_68
+    21300138: levelSprites_69
+    21300140: levelSprites_70
+    21300142: levelSprites_71
+    21300144: levelSprites_72
+    21300146: levelSprites_73
+    21300148: levelSprites_74
+    21300150: levelSprites_75
+    21300152: levelSprites_76
+    21300154: levelSprites_77
+    21300156: levelSprites_78
+    21300158: levelSprites_79
+    21300160: levelSprites_80
+    21300162: levelSprites_81
+    21300164: levelSprites_82
+    21300166: levelSprites_83
+    21300168: levelSprites_84
+    21300170: levelSprites_85
+    21300172: levelSprites_86
+    21300174: levelSprites_87
+    21300176: levelSprites_88
+    21300178: levelSprites_89
+    21300180: levelSprites_90
+    21300182: levelSprites_91
+    21300184: levelSprites_92
+    21300186: levelSprites_93
+    21300188: levelSprites_94
+    21300190: levelSprites_95
+    21300192: levelSprites_96
+    21300194: levelSprites_97
+    21300196: levelSprites_98
+    21300198: levelSprites_99
+    21300200: levelSprites_100
+    21300202: levelSprites_101
+    21300204: levelSprites_102
+    21300206: levelSprites_103
+    21300208: levelSprites_104
+    21300210: levelSprites_105
+    21300212: levelSprites_106
+    21300214: levelSprites_107
+    21300216: levelSprites_108
+    21300218: levelSprites_109
+    21300220: levelSprites_110
+    21300222: levelSprites_111
+    21300224: levelSprites_112
+    21300226: levelSprites_113
+    21300228: levelSprites_114
+    21300230: levelSprites_115
+    21300232: levelSprites_116
+    21300234: levelSprites_117
+    21300236: levelSprites_118
+    21300238: levelSprites_119
+    21300240: levelSprites_120
+    21300242: levelSprites_121
+    21300244: levelSprites_122
+    21300246: levelSprites_123
+    21300248: levelSprites_124
+    21300250: levelSprites_125
+    21300252: levelSprites_126
+    21300254: levelSprites_127
+    21300256: levelSprites_128
+    21300258: levelSprites_129
+    21300260: levelSprites_130
+    21300262: levelSprites_131
+    21300264: levelSprites_132
+    21300266: levelSprites_133
+    21300268: levelSprites_134
+    21300270: levelSprites_135
+    21300272: levelSprites_136
+    21300274: levelSprites_137
+    21300276: levelSprites_138
+    21300278: levelSprites_139
+    21300280: levelSprites_140
+    21300282: levelSprites_141
+    21300284: levelSprites_142
+    21300286: levelSprites_143
+    21300288: levelSprites_144
+    21300290: levelSprites_145
+    21300292: levelSprites_146
+    21300294: levelSprites_147
+    21300296: levelSprites_148
+    21300298: levelSprites_149
+    21300300: levelSprites_150
+    21300302: levelSprites_151
+    21300304: levelSprites_152
+    21300306: levelSprites_153
+    21300308: levelSprites_154
+    21300310: levelSprites_155
+    21300312: levelSprites_156
+    21300314: levelSprites_157
+    21300316: levelSprites_158
+    21300318: levelSprites_159
+    21300320: levelSprites_160
+    21300322: levelSprites_161
+    21300324: levelSprites_162
+    21300326: levelSprites_163
+    21300328: levelSprites_164
+    21300330: levelSprites_165
+    21300332: levelSprites_166
+    21300334: levelSprites_167
+    21300336: levelSprites_168
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: levelSprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 866
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 868
+        width: 62
+        height: 65
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 65}
+        - {x: 0, y: 62}
+        - {x: 0, y: 0}
+        - {x: 62, y: 0}
+        - {x: 62, y: 56}
+        - {x: 55, y: 65}
+    - name: levelSprites_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 896
+        width: 70
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 40}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 40}
+    - name: levelSprites_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 866
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 866
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 22}
+        - {x: 29, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 866
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 3}
+        - {x: 3, y: 70}
+    - name: levelSprites_6
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 898
+        width: 70
+        height: 5
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_7
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 866
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_8
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 866
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 3}
+        - {x: 3, y: 70}
+    - name: levelSprites_9
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 866
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_10
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 866
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 3}
+        - {x: 3, y: 70}
+    - name: levelSprites_11
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 866
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_12
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 790
+        width: 48
+        height: 146
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 146}
+        - {x: 0, y: 139}
+        - {x: 0, y: 0}
+        - {x: 48, y: 0}
+        - {x: 48, y: 145}
+        - {x: 43, y: 146}
+    - name: levelSprites_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 794
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_14
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 796
+        width: 28
+        height: 50
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 824
+        width: 70
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 40}
+        - {x: 0, y: 38}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 40}
+    - name: levelSprites_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 794
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 70}
+        - {x: 0, y: 69}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 68, y: 0}
+        - {x: 70, y: 2}
+        - {x: 70, y: 68}
+        - {x: 68, y: 70}
+    - name: levelSprites_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 794
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_18
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 794
+        width: 16
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_19
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 794
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_20
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 794
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_21
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 794
+        width: 70
+        height: 61
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 61}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 61}
+    - name: levelSprites_22
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 794
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_23
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 794
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_24
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 794
+        width: 70
+        height: 20
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 722
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_26
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 724
+        width: 28
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 752
+        width: 70
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 40}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 40}
+    - name: levelSprites_28
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 722
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_29
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 722
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_30
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 722
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 70}
+        - {x: 0, y: 3}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_31
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 722
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 3}
+        - {x: 3, y: 70}
+    - name: levelSprites_32
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 722
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_33
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 722
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 70}
+        - {x: 0, y: 3}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_34
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 722
+        width: 70
+        height: 61
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 61}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 61}
+    - name: levelSprites_35
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 722
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 70}
+        - {x: 0, y: 3}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_36
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 722
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_37
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 764
+        width: 5
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 650
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_39
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 652
+        width: 28
+        height: 67
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_40
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 650
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: 70}
+        - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 27, y: 0}
+        - {x: 70, y: 43}
+        - {x: 70, y: 68}
+    - name: levelSprites_41
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 650
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 3}
+        - {x: 3, y: 70}
+    - name: levelSprites_42
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 650
+        width: 64
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 0}
+        - {x: 64, y: 18}
+        - {x: 64, y: 55}
+        - {x: 56, y: 70}
+        - {x: 0, y: 70}
+        - {x: 0, y: 0}
+    - name: levelSprites_43
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 679
+        width: 70
+        height: 41
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 41}
+        - {x: 0, y: 0}
+        - {x: 68, y: 0}
+        - {x: 70, y: 2}
+        - {x: 70, y: 39}
+        - {x: 68, y: 41}
+    - name: levelSprites_44
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 650
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 70}
+        - {x: 0, y: 3}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_45
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 650
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_46
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 680
+        width: 70
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 40}
+        - {x: 0, y: 0}
+        - {x: 68, y: 0}
+        - {x: 70, y: 2}
+        - {x: 70, y: 38}
+        - {x: 68, y: 40}
+    - name: levelSprites_47
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 650
+        width: 70
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 40}
+        - {x: 0, y: 38}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 31}
+        - {x: 64, y: 40}
+    - name: levelSprites_48
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 679
+        width: 70
+        height: 41
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 41}
+        - {x: 0, y: 0}
+        - {x: 68, y: 0}
+        - {x: 70, y: 2}
+        - {x: 70, y: 39}
+        - {x: 68, y: 41}
+    - name: levelSprites_49
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 650
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 70}
+        - {x: 0, y: 68}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 578
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_51
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 578
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_52
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 578
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 37, y: 0}
+        - {x: 70, y: 17}
+        - {x: 70, y: 70}
+    - name: levelSprites_53
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 578
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_54
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 578
+        width: 64
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 70}
+        - {x: 0, y: 66}
+        - {x: 0, y: 26}
+        - {x: 13, y: 0}
+        - {x: 59, y: 0}
+        - {x: 64, y: 18}
+        - {x: 64, y: 70}
+    - name: levelSprites_55
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 607
+        width: 70
+        height: 41
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 41}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 41}
+    - name: levelSprites_56
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 578
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_57
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 578
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_58
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 608
+        width: 70
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 40}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 40}
+    - name: levelSprites_59
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 578
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_60
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 607
+        width: 70
+        height: 41
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 41}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 41}
+    - name: levelSprites_61
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 578
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 27, y: 0}
+        - {x: 70, y: 39}
+        - {x: 70, y: 70}
+    - name: levelSprites_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 506
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_63
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 506
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 68, y: 0}
+        - {x: 70, y: 2}
+        - {x: 70, y: 68}
+        - {x: 68, y: 70}
+    - name: levelSprites_64
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 506
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 70}
+        - {x: 0, y: 68}
+        - {x: 0, y: 43}
+        - {x: 44, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_65
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 506
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 70}
+        - {x: 0, y: 3}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_66
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 506
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 70}
+        - {x: 0, y: 65}
+        - {x: 0, y: 16}
+        - {x: 12, y: 0}
+        - {x: 45, y: 0}
+        - {x: 70, y: 17}
+        - {x: 70, y: 65}
+        - {x: 55, y: 70}
+    - name: levelSprites_67
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 535
+        width: 70
+        height: 41
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 41}
+        - {x: 0, y: 39}
+        - {x: 0, y: 1}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 41}
+    - name: levelSprites_68
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 506
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_69
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 506
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_70
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 536
+        width: 70
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 40}
+        - {x: 0, y: 38}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 40}
+    - name: levelSprites_71
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 506
+        width: 70
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55, y: 40}
+        - {x: 12, y: 40}
+        - {x: 0, y: 29}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 27}
+        - {x: 63, y: 35}
+    - name: levelSprites_72
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 535
+        width: 70
+        height: 41
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 41}
+        - {x: 0, y: 39}
+        - {x: 0, y: 1}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 41}
+    - name: levelSprites_73
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 536
+        width: 70
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 40}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 40}
+    - name: levelSprites_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 434
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_75
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 434
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_76
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 434
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 22}
+        - {x: 29, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_77
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 463
+        width: 70
+        height: 41
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 41}
+        - {x: 0, y: 0}
+        - {x: 68, y: 0}
+        - {x: 70, y: 2}
+        - {x: 70, y: 39}
+        - {x: 68, y: 41}
+    - name: levelSprites_78
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 434
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 70}
+        - {x: 0, y: 65}
+        - {x: 0, y: 16}
+        - {x: 12, y: 0}
+        - {x: 45, y: 0}
+        - {x: 70, y: 17}
+        - {x: 70, y: 65}
+        - {x: 55, y: 70}
+    - name: levelSprites_79
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 463
+        width: 70
+        height: 41
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 41}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 41}
+    - name: levelSprites_80
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 434
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_81
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 434
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 70}
+        - {x: 0, y: 68}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_82
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 464
+        width: 70
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 40}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 40}
+    - name: levelSprites_83
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 434
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_84
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 463
+        width: 70
+        height: 41
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 41}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 41}
+    - name: levelSprites_85
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 434
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_87
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 362
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 70}
+        - {x: 0, y: 68}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_88
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 362
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 70}
+        - {x: 0, y: 69}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 68, y: 0}
+        - {x: 70, y: 2}
+        - {x: 70, y: 68}
+        - {x: 68, y: 70}
+    - name: levelSprites_89
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 391
+        width: 70
+        height: 41
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 41}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 41}
+    - name: levelSprites_90
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 362
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 68, y: 0}
+        - {x: 70, y: 2}
+        - {x: 70, y: 68}
+        - {x: 68, y: 70}
+    - name: levelSprites_91
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 362
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 28, y: 0}
+        - {x: 70, y: 43}
+        - {x: 70, y: 68}
+        - {x: 68, y: 70}
+    - name: levelSprites_92
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 362
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_93
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 362
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 68, y: 0}
+        - {x: 70, y: 2}
+        - {x: 70, y: 68}
+        - {x: 68, y: 70}
+    - name: levelSprites_94
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 362
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: 70}
+        - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 27, y: 0}
+        - {x: 70, y: 43}
+        - {x: 70, y: 68}
+    - name: levelSprites_95
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 362
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 68, y: 0}
+        - {x: 70, y: 2}
+        - {x: 70, y: 68}
+        - {x: 68, y: 70}
+    - name: levelSprites_96
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 362
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 28, y: 0}
+        - {x: 70, y: 43}
+        - {x: 70, y: 68}
+        - {x: 68, y: 70}
+    - name: levelSprites_97
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 362
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 3}
+        - {x: 3, y: 70}
+    - name: levelSprites_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_99
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 290
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_100
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 290
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_101
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 319
+        width: 70
+        height: 41
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 41}
+        - {x: 0, y: 39}
+        - {x: 0, y: 1}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 41}
+    - name: levelSprites_102
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 290
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_103
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 290
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 32, y: 0}
+        - {x: 49, y: 2}
+        - {x: 70, y: 24}
+        - {x: 70, y: 69}
+        - {x: 69, y: 70}
+    - name: levelSprites_104
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 290
+        width: 70
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 45}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 45}
+    - name: levelSprites_105
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 290
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_106
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 290
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 37, y: 0}
+        - {x: 70, y: 17}
+        - {x: 70, y: 70}
+    - name: levelSprites_107
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 290
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 70}
+        - {x: 0, y: 3}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_108
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 290
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 32, y: 0}
+        - {x: 49, y: 2}
+        - {x: 70, y: 24}
+        - {x: 70, y: 69}
+        - {x: 69, y: 70}
+    - name: levelSprites_109
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 290
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_111
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 218
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_112
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 218
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_113
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 247
+        width: 70
+        height: 41
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 41}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 41}
+    - name: levelSprites_114
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 218
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 70}
+        - {x: 0, y: 68}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_115
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 218
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 70}
+        - {x: 0, y: 68}
+        - {x: 0, y: 43}
+        - {x: 44, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_116
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 218
+        width: 70
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 45}
+        - {x: 0, y: 1}
+        - {x: 1, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 45}
+    - name: levelSprites_117
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 218
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 70}
+        - {x: 0, y: 68}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_118
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 218
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 70}
+        - {x: 0, y: 68}
+        - {x: 0, y: 43}
+        - {x: 44, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_119
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 248
+        width: 70
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 40}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 40}
+    - name: levelSprites_120
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 218
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 70}
+        - {x: 0, y: 68}
+        - {x: 0, y: 43}
+        - {x: 44, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_121
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 248
+        width: 70
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 40}
+        - {x: 0, y: 0}
+        - {x: 68, y: 0}
+        - {x: 70, y: 2}
+        - {x: 70, y: 39}
+        - {x: 69, y: 40}
+    - name: levelSprites_122
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_123
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 146
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_124
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 146
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 68, y: 0}
+        - {x: 70, y: 2}
+        - {x: 70, y: 68}
+        - {x: 68, y: 70}
+    - name: levelSprites_125
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 146
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 28, y: 0}
+        - {x: 70, y: 43}
+        - {x: 70, y: 68}
+        - {x: 68, y: 70}
+    - name: levelSprites_126
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 146
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 22}
+        - {x: 29, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_127
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 176
+        width: 70
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 40}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 40}
+    - name: levelSprites_128
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 146
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_129
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 146
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 22}
+        - {x: 29, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_130
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 146
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 70}
+        - {x: 0, y: 68}
+        - {x: 0, y: 42}
+        - {x: 41, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_131
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 146
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 22}
+        - {x: 29, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_132
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 110
+        width: 48
+        height: 106
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 106}
+        - {x: 0, y: 99}
+        - {x: 0, y: 0}
+        - {x: 48, y: 0}
+        - {x: 48, y: 104}
+        - {x: 41, y: 106}
+    - name: levelSprites_133
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 70
+        width: 48
+        height: 146
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 146}
+        - {x: 0, y: 139}
+        - {x: 0, y: 0}
+        - {x: 48, y: 0}
+        - {x: 48, y: 145}
+        - {x: 43, y: 146}
+    - name: levelSprites_134
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 146
+        width: 70
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_136
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 74
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_137
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 74
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_138
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 74
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 32, y: 0}
+        - {x: 49, y: 2}
+        - {x: 70, y: 24}
+        - {x: 70, y: 69}
+        - {x: 69, y: 70}
+    - name: levelSprites_139
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 74
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 70}
+        - {x: 0, y: 68}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_140
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 74
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_141
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 74
+        width: 70
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 45}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 45}
+    - name: levelSprites_142
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 74
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 22}
+        - {x: 23, y: 3}
+        - {x: 37, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_143
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 74
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 70}
+        - {x: 0, y: 69}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 68, y: 0}
+        - {x: 70, y: 2}
+        - {x: 70, y: 68}
+        - {x: 68, y: 70}
+    - name: levelSprites_144
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 74
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 70}
+        - {x: 0, y: 68}
+        - {x: 0, y: 0}
+        - {x: 32, y: 0}
+        - {x: 57, y: 10}
+        - {x: 70, y: 26}
+        - {x: 70, y: 70}
+    - name: levelSprites_145
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 74
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 70}
+        - {x: 0, y: 69}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 68, y: 0}
+        - {x: 70, y: 2}
+        - {x: 70, y: 68}
+        - {x: 68, y: 70}
+    - name: levelSprites_146
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 2
+        width: 48
+        height: 106
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 106}
+        - {x: 0, y: 99}
+        - {x: 0, y: 0}
+        - {x: 48, y: 0}
+        - {x: 48, y: 104}
+        - {x: 41, y: 106}
+    - name: levelSprites_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_148
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 32
+        width: 70
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 40}
+        - {x: 0, y: 0}
+        - {x: 68, y: 0}
+        - {x: 70, y: 2}
+        - {x: 70, y: 38}
+        - {x: 68, y: 40}
+    - name: levelSprites_149
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 70}
+        - {x: 0, y: 68}
+        - {x: 0, y: 2}
+        - {x: 2, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_150
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 70}
+        - {x: 0, y: 68}
+        - {x: 0, y: 43}
+        - {x: 44, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_151
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 2
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_152
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 2
+        width: 5
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_153
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 2
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_154
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_155
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_156
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2
+        width: 70
+        height: 70
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 70}
+        - {x: 0, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 70}
+    - name: levelSprites_157
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 46
+        width: 5
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_158
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 44
+        width: 5
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_159
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 46
+        width: 5
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_160
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 50
+        width: 5
+        height: 18
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_161
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2
+        width: 70
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 45}
+        - {x: 0, y: 1}
+        - {x: 1, y: 0}
+        - {x: 70, y: 0}
+        - {x: 70, y: 45}
+    - name: levelSprites_162
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 26
+        width: 5
+        height: 18
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_163
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 18
+        width: 5
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_164
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 26
+        width: 5
+        height: 18
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_165
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 30
+        width: 5
+        height: 18
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_166
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 6
+        width: 5
+        height: 18
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_167
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 6
+        width: 5
+        height: 18
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: levelSprites_168
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 4
+        width: 5
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
