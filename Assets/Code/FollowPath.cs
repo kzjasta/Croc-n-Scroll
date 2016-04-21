@@ -4,6 +4,8 @@ using System.Collections.Generic;
 
 public class FollowPath : MonoBehaviour {
 
+	// MoveTowards - Platform has consistent pace between points
+	// Lerp - Platform slows as it approaches each point, stops, and then repeats.
 	public enum FollowType{
 		MoveTowards,
 		Lerp 
@@ -17,6 +19,7 @@ public class FollowPath : MonoBehaviour {
 	private IEnumerator<Transform> currentPoint;
 
 	public void Start(){
+		
 		if (Path == null) {
 			Debug.LogError ("Path cannot be null", gameObject);
 			return;
