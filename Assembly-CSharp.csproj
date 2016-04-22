@@ -48,9 +48,9 @@
      <Compile Include="Assets\Code\CameraController.cs" />
      <Compile Include="Assets\Code\CameraFollow.cs" />
      <Compile Include="Assets\Code\FollowPath.cs" />
+     <Compile Include="Assets\Code\Lava.cs" />
      <Compile Include="Assets\Code\PathDefinition.cs" />
      <Compile Include="Assets\Code\PlayerController.cs" />
-     <Compile Include="Assets\Code\PlayerState.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

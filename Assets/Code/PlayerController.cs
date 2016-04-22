@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour {
+
 
 	private Rigidbody2D player;
 	private Animator anim;
@@ -9,16 +11,21 @@ public class PlayerController : MonoBehaviour {
 	bool facingRight = true;
 	public float jumpForce = 800f;
 
+	//Ground checker
 	bool grounded = false;
 	public Transform groundcheck;
 	float groundRadius = 0.2f;
 	public LayerMask whatIsGround;
 
+	//Player Health
+	public int currentHealth;
+	public int maxHealth = 100;
+
 
 	void Start () {
 		player = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
-		Physics.IgnoreLayerCollision (8,9);
+		currentHealth = maxHealth;
 
 	}
 
@@ -29,7 +36,7 @@ public class PlayerController : MonoBehaviour {
 		anim.SetFloat ("verticalSpeed", player.velocity.y);
 
 
-		float move = Input.GetAxis ("Horizontal");
+		float move = Input.GetAxisRaw ("Horizontal");
 
 		anim.SetFloat("Speed", Mathf.Abs(move));
 
@@ -43,9 +50,13 @@ public class PlayerController : MonoBehaviour {
 
 	void Update(){
 
-		if(grounded && Input.GetKeyDown(KeyCode.Space)){
+		checkHealth ();
+
+		// If player is on the ground, allow to jump
+		if(grounded && Input.GetButton("Jump")){
 			anim.SetBool ("Ground", false);
-			player.AddForce(new Vector2(0, jumpForce));
+			player.AddForce(new Vector2(0, jumpForce / 5));
+
 		}
 	}
 
@@ -55,5 +66,23 @@ public class PlayerController : MonoBehaviour {
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
+	}
+
+
+	//Kills the player in game
+	void KillPlayer(){
+		SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
+
+	}
+
+	void checkHealth(){	
+		if (currentHealth > maxHealth) {
+			currentHealth = maxHealth;
+		}
+
+		if (currentHealth <= 0) {
+			KillPlayer (); 
+		}
+			
 	}
 }

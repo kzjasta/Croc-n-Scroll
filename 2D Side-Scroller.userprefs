@@ -1,12 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\CameraFollow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\PlayerController.cs">
     <Files>
-      <File FileName="Assets\Code\PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Code\PlayerController.cs" Line="78" Column="22" />
       <File FileName="Assets\Code\PathDefinition.cs" Line="1" Column="1" />
       <File FileName="Assets\Code\FollowPath.cs" Line="1" Column="1" />
-      <File FileName="Assets\Code\PlayerState.cs" Line="1" Column="1" />
       <File FileName="Assets\Code\CameraFollow.cs" Line="35" Column="4" />
+      <File FileName="Assets\Code\Lava.cs" Line="8" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
