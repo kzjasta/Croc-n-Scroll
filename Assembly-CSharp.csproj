@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Code\CameraController.cs" />
+     <Compile Include="Assets\Code\CameraFollow.cs" />
      <Compile Include="Assets\Code\FollowPath.cs" />
      <Compile Include="Assets\Code\PathDefinition.cs" />
      <Compile Include="Assets\Code\PlayerController.cs" />

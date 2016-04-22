@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour {
 	void Start () {
 		player = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
+		Physics.IgnoreLayerCollision (8,9);
 
 	}
 
