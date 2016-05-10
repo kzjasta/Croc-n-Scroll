@@ -53,9 +53,9 @@ public class PlayerController : MonoBehaviour {
 		checkHealth ();
 
 		// If player is on the ground, allow to jump
-		if(grounded && Input.GetButton("Jump")){
+		if(grounded && Input.GetButtonDown("Jump")){
 			anim.SetBool ("Ground", false);
-			player.AddForce(new Vector2(0, jumpForce / 5));
+			player.AddForce(new Vector2(0, jumpForce));
 
 		}
 	}
@@ -75,6 +75,11 @@ public class PlayerController : MonoBehaviour {
 
 	}
 
+	public void takeDamage(int dmg){
+		currentHealth -= dmg;
+		gameObject.GetComponent<Animation> ().Play ("RedFlash");
+	}
+
 	void checkHealth(){	
 		if (currentHealth > maxHealth) {
 			currentHealth = maxHealth;
@@ -84,5 +89,19 @@ public class PlayerController : MonoBehaviour {
 			KillPlayer (); 
 		}
 			
+	}
+
+	//Knocks the player backwards
+	public IEnumerator kickBack(float knockDur, float knockPwr, Vector3 knockDir){
+
+		float timer = 0;
+
+		while (knockDur > timer) {
+			timer += Time.deltaTime;
+
+			player.AddForce (new Vector3 (knockDir.x * -10, knockDir.y * knockPwr, transform.position.z));
+		}
+
+		yield return 0;
 	}
 }

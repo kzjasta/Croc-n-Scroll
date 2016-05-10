@@ -1,11 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CollisionEvents : MonoBehaviour {
+public class Lava : MonoBehaviour {
 
 	private PlayerController player;
 
-	void Start(){	
+	void Start(){
 
+		player = GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerController> ();
+	}
+
+
+	void OnTriggerEnter2D(Collider2D col){
+
+		if(col.CompareTag("Player")){
+			player.takeDamage(20);
+			StartCoroutine (player.kickBack (0.03f, 500, player.transform.position));
+		}
 	}
 }
