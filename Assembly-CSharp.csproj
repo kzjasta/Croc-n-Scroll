@@ -47,6 +47,8 @@
   <ItemGroup>
      <Compile Include="Assets\Code\CameraController.cs" />
      <Compile Include="Assets\Code\CameraFollow.cs" />
+     <Compile Include="Assets\Code\Enemies.cs" />
+     <Compile Include="Assets\Code\EnemyPatrol.cs" />
      <Compile Include="Assets\Code\FollowPath.cs" />
      <Compile Include="Assets\Code\GameMaster.cs" />
      <Compile Include="Assets\Code\HUD.cs" />

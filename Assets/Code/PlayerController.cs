@@ -151,9 +151,8 @@ public class PlayerController : MonoBehaviour {
 	//Collision for exit
 	void exit(Collider2D col){
 		if (col.CompareTag("Exit")){
-			SceneManager.LoadScene("Level 2");
+			gm.SaveScore ();
+			gm.nextLevel ();
 		}
 	}
-
-
 }
