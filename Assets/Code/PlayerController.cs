@@ -4,7 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour {
 
-
+	public GameMaster gm;
+	public HUD hud;
 	private Rigidbody2D player;
 	private Animator anim;
 	public float maxSpeed = 15f;
@@ -26,6 +27,9 @@ public class PlayerController : MonoBehaviour {
 		player = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
 		currentHealth = maxHealth;
+		gm = GameObject.FindGameObjectWithTag ("Game Master").GetComponent<GameMaster> ();
+		hud = GameObject.FindGameObjectWithTag ("HUD").GetComponent<HUD> ();
+
 
 	}
 
@@ -80,6 +84,11 @@ public class PlayerController : MonoBehaviour {
 		gameObject.GetComponent<Animation> ().Play ("RedFlash");
 	}
 
+	//Adds
+	public void addHealth(int health){
+		currentHealth += health;
+	}
+
 	void checkHealth(){	
 		if (currentHealth > maxHealth) {
 			currentHealth = maxHealth;
@@ -104,4 +113,47 @@ public class PlayerController : MonoBehaviour {
 
 		yield return 0;
 	}
+
+	//Checks for possible colisions
+	void OnTriggerEnter2D(Collider2D col){
+		healthPickup (col);
+		gemPickup (col);
+		floorLimit (col);
+		exit (col);
+	}
+
+
+	//Collision detection for health pickup
+	void healthPickup(Collider2D col){
+		if (col.CompareTag ("Health")) {
+			addHealth (20);
+			gm.addPoints (10);
+			Destroy (col.gameObject);
+		}
+	}
+
+	//Collision detection for gem pickup
+	void gemPickup(Collider2D col){
+		if (col.CompareTag ("Gem")) {
+			gm.addPoints (100);
+			Destroy (col.gameObject);
+		}
+	}
+
+
+	//Collision for floor limits
+	void floorLimit(Collider2D col){
+		if (col.CompareTag ("Floor Limit")) {
+			KillPlayer ();
+		}
+	}
+
+	//Collision for exit
+	void exit(Collider2D col){
+		if (col.CompareTag("Exit")){
+			SceneManager.LoadScene("Level 2");
+		}
+	}
+
+
 }
