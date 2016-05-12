@@ -13,15 +13,9 @@ public class Enemies : MonoBehaviour {
 
 	void Start(){
 
-		player = GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerController> ();
 		health = 100;
 	}
 
 
-	void OnTriggerEnter2D(Collider2D col){
-		if (col.CompareTag ("Player")) {
-			player.takeDamage (20);
-		}
-	}
 
 }

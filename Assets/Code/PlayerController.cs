@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour {
 	public HUD hud;
 	private Rigidbody2D player;
 	private Animator anim;
+	public Transform stompCheck;
 	public float maxSpeed = 15f;
 	bool facingRight = true;
 	public float jumpForce = 800f;
@@ -119,6 +120,8 @@ public class PlayerController : MonoBehaviour {
 		healthPickup (col);
 		gemPickup (col);
 		floorLimit (col);
+		enemyStomp (col);
+		enemyCollision (col);
 		exit (col);
 	}
 
@@ -145,6 +148,24 @@ public class PlayerController : MonoBehaviour {
 	void floorLimit(Collider2D col){
 		if (col.CompareTag ("Floor Limit")) {
 			KillPlayer ();
+		}
+	}
+
+	//Collision for stomping an enemy
+	void enemyStomp(Collider2D col){
+		if(col.CompareTag("Stomp Checker")){
+			StartCoroutine (kickBack (0.03f, 300, player.transform.position));
+			Destroy (col.transform.parent.gameObject);
+			gm.addPoints (50);
+		}
+	}
+
+	//Collision for an enemy
+	void enemyCollision(Collider2D col){
+		if(col.CompareTag("Enemy")){
+			takeDamage(20);
+			StartCoroutine (kickBack (0.03f, 500, player.transform.position));
+
 		}
 	}
 
