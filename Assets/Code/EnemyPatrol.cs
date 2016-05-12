@@ -11,6 +11,8 @@ public class EnemyPatrol : MonoBehaviour {
 	public LayerMask whatIsWall;
 	public bool hittingWall;
 
+	private bool notAtEdge;
+	public Transform edgeCheck;
 
 
 	// Use this for initialization
@@ -20,19 +22,35 @@ public class EnemyPatrol : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		
+		whenToTurn ();
 
+	}
+
+
+	//Detects enemy should turn around
+	void whenToTurn(){
+		
 		hittingWall = Physics2D.OverlapCircle (wallCheck.position, wallCheckRadius, whatIsWall);
+		notAtEdge = Physics2D.OverlapCircle (edgeCheck.position, wallCheckRadius, whatIsWall);
 
-		if (hittingWall) {
+		if (hittingWall || !notAtEdge) {
 			FlipSprite ();
 		}
 
+		directionChange ();
+		
+	}
+
+	//Changes object direction
+	void directionChange(){
 		if (moveRight) {
 			GetComponent<Rigidbody2D> ().velocity = new Vector2 (moveSpeed, GetComponent<Rigidbody2D> ().velocity.y);
 		} else {
 			GetComponent<Rigidbody2D> ().velocity = new Vector2 (-moveSpeed, GetComponent<Rigidbody2D> ().velocity.y);
 		}
 	}
+
 
 	// Flips the direction of the sprite
 	void FlipSprite(){

@@ -19,6 +19,10 @@ public class PlayerController : MonoBehaviour {
 	float groundRadius = 0.2f;
 	public LayerMask whatIsGround;
 
+	//Projectiles
+	public Transform firePoint;
+	public GameObject ninjaStar;
+
 	//Player Health
 	public int currentHealth;
 	public int maxHealth = 100;
@@ -55,6 +59,8 @@ public class PlayerController : MonoBehaviour {
 
 	void Update(){
 
+		fireProjectile ();
+
 		checkHealth ();
 
 		// If player is on the ground, allow to jump
@@ -80,16 +86,19 @@ public class PlayerController : MonoBehaviour {
 
 	}
 
+	//Deals damage to the player
 	public void takeDamage(int dmg){
 		currentHealth -= dmg;
 		gameObject.GetComponent<Animation> ().Play ("RedFlash");
 	}
 
-	//Adds
+	//Adds health to the players current health
 	public void addHealth(int health){
 		currentHealth += health;
 	}
 
+
+	//Checks to see if the player is dead
 	void checkHealth(){	
 		if (currentHealth > maxHealth) {
 			currentHealth = maxHealth;
@@ -164,7 +173,7 @@ public class PlayerController : MonoBehaviour {
 	void enemyCollision(Collider2D col){
 		if(col.CompareTag("Enemy")){
 			takeDamage(20);
-			StartCoroutine (kickBack (0.03f, 500, player.transform.position));
+			StartCoroutine (kickBack (0.03f, 90, player.transform.position));
 
 		}
 	}
@@ -176,4 +185,14 @@ public class PlayerController : MonoBehaviour {
 			gm.nextLevel ();
 		}
 	}
+
+	void fireProjectile(){
+		if (Input.GetButtonDown ("Fire")){
+			Instantiate (ninjaStar, firePoint.position, firePoint.rotation);	
+		}
+	}
+
+
+
+
 }

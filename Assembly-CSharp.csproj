@@ -54,6 +54,7 @@
      <Compile Include="Assets\Code\HUD.cs" />
      <Compile Include="Assets\Code\Lava.cs" />
      <Compile Include="Assets\Code\MainMenu.cs" />
+     <Compile Include="Assets\Code\NinjaStarController.cs" />
      <Compile Include="Assets\Code\PathDefinition.cs" />
      <Compile Include="Assets\Code\PauseMenu.cs" />
      <Compile Include="Assets\Code\Pickups.cs" />

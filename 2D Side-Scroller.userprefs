@@ -2,14 +2,15 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\PlayerController.cs">
     <Files>
-      <File FileName="Assets\Code\Enemies.cs" Line="11" Column="2" />
+      <File FileName="Assets\Code\EnemyPatrol.cs" Line="31" Column="36" />
+      <File FileName="Assets\Code\Enemies.cs" Line="1" Column="1" />
       <File FileName="Assets\Code\MainMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\Code\PlayerController.cs" Line="164" Column="38" />
+      <File FileName="Assets\Code\PlayerController.cs" Line="127" Column="33" />
       <File FileName="Assets\Code\HUD.cs" Line="1" Column="1" />
-      <File FileName="Assets\Code\Lava.cs" Line="22" Column="1" />
+      <File FileName="Assets\Code\Lava.cs" Line="1" Column="1" />
       <File FileName="Assets\Code\GameMaster.cs" Line="1" Column="1" />
       <File FileName="Assets\Code\PauseMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\Code\EnemyPatrol.cs" Line="33" Column="110" />
+      <File FileName="Assets\Code\NinjaStarController.cs" Line="37" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
