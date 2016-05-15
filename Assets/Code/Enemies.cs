@@ -6,16 +6,17 @@ public class Enemies : MonoBehaviour {
 	private GameMaster gm;
 	private PlayerController player;
 
-	int health;
+	public bool isDead = false;
+
 
 
 
 
 	void Start(){
 
-		health = 100;
 	}
 
 
+		
 
 }

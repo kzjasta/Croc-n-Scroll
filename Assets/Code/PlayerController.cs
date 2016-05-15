@@ -6,12 +6,14 @@ public class PlayerController : MonoBehaviour {
 
 	public GameMaster gm;
 	public HUD hud;
+	public Enemies enemy;
 	private Rigidbody2D player;
 	private Animator anim;
 	public Transform stompCheck;
 	public float maxSpeed = 15f;
 	bool facingRight = true;
 	public float jumpForce = 800f;
+	public int starCount;
 
 	//Ground checker
 	bool grounded = false;
@@ -34,6 +36,9 @@ public class PlayerController : MonoBehaviour {
 		currentHealth = maxHealth;
 		gm = GameObject.FindGameObjectWithTag ("Game Master").GetComponent<GameMaster> ();
 		hud = GameObject.FindGameObjectWithTag ("HUD").GetComponent<HUD> ();
+		enemy = GameObject.FindGameObjectWithTag ("Enemy").GetComponent<Enemies> ();
+		starCount = 5;
+
 
 
 	}
@@ -59,8 +64,8 @@ public class PlayerController : MonoBehaviour {
 
 	void Update(){
 
-		fireProjectile ();
 
+		fireProjectile ();
 		checkHealth ();
 
 		// If player is on the ground, allow to jump
@@ -82,8 +87,8 @@ public class PlayerController : MonoBehaviour {
 
 	//Kills the player in game
 	void KillPlayer(){
-		SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
 
+		SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
 	}
 
 	//Deals damage to the player
@@ -111,14 +116,16 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	//Knocks the player backwards
-	public IEnumerator kickBack(float knockDur, float knockPwr, Vector3 knockDir){
+	public IEnumerator kickBack(float knockDur, float knockPwr){
 
 		float timer = 0;
 
-		while (knockDur > timer) {
-			timer += Time.deltaTime;
+		if(knockDur > timer) {
+			//timer += Time.deltaTime;
 
-			player.AddForce (new Vector3 (knockDir.x * -10, knockDir.y * knockPwr, transform.position.z));
+			player.velocity = new Vector2 (-knockPwr, knockPwr);
+
+
 		}
 
 		yield return 0;
@@ -163,7 +170,7 @@ public class PlayerController : MonoBehaviour {
 	//Collision for stomping an enemy
 	void enemyStomp(Collider2D col){
 		if(col.CompareTag("Stomp Checker")){
-			StartCoroutine (kickBack (0.03f, 300, player.transform.position));
+			StartCoroutine (kickBack (0.03f, 10));
 			Destroy (col.transform.parent.gameObject);
 			gm.addPoints (50);
 		}
@@ -173,7 +180,7 @@ public class PlayerController : MonoBehaviour {
 	void enemyCollision(Collider2D col){
 		if(col.CompareTag("Enemy")){
 			takeDamage(20);
-			StartCoroutine (kickBack (0.03f, 90, player.transform.position));
+			StartCoroutine (kickBack (50, 10));
 
 		}
 	}
@@ -181,14 +188,17 @@ public class PlayerController : MonoBehaviour {
 	//Collision for exit
 	void exit(Collider2D col){
 		if (col.CompareTag("Exit")){
+			gm.addPoints (500);
 			gm.SaveScore ();
 			gm.nextLevel ();
 		}
 	}
 
+	//Player fires a projectile
 	void fireProjectile(){
-		if (Input.GetButtonDown ("Fire")){
-			Instantiate (ninjaStar, firePoint.position, firePoint.rotation);	
+		if (Input.GetButtonDown ("Fire") && starCount > 0){
+			Instantiate (ninjaStar, firePoint.position, firePoint.rotation);
+			starCount--;
 		}
 	}
 
@@ -196,3 +206,4 @@ public class PlayerController : MonoBehaviour {
 
 
 }
+	

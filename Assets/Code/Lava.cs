@@ -15,7 +15,7 @@ public class Lava : MonoBehaviour {
 
 		if(col.CompareTag("Player")){
 			player.takeDamage(20);
-			StartCoroutine (player.kickBack (0.03f, 500, player.transform.position));
+			StartCoroutine (player.kickBack (0.03f, 10));
 		}
 	}
 }

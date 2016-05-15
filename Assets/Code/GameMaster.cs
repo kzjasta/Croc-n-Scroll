@@ -7,9 +7,14 @@ public class GameMaster : MonoBehaviour {
 	public int points;
 	public Text pointsText;
 	private int levelsCompleted;
-
+	private HUD hud;
 
 	void Start(){
+		getScore ();
+
+	}
+
+	void getScore(){
 		if (PlayerPrefs.HasKey ("Score")) {
 			if (SceneManager.GetActiveScene ().buildIndex == 1) {
 				PlayerPrefs.DeleteKey ("Score");
@@ -45,6 +50,14 @@ public class GameMaster : MonoBehaviour {
 	public void nextLevel(){
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
+
+	//Calculates the total score
+	public void calcScore(float timeLeft){
+		points += Mathf.FloorToInt (timeLeft);
+		Debug.Log (points);
+
+	}
+
 
 
 
