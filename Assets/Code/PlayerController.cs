@@ -29,6 +29,17 @@ public class PlayerController : MonoBehaviour {
 	public int currentHealth;
 	public int maxHealth = 100;
 
+	//Audio Clips
+	public AudioClip jumpSound;
+	public AudioClip shootSound;
+	public AudioClip gemSound;
+	public AudioClip healthSound;
+	public AudioClip burnSound;
+	public AudioClip killSound;
+	public AudioClip hurtSound;
+	public AudioClip finishSound;
+	public AudioClip dieSound;
+
 
 	void Start () {
 		player = GetComponent<Rigidbody2D> ();
@@ -67,11 +78,19 @@ public class PlayerController : MonoBehaviour {
 
 		fireProjectile ();
 		checkHealth ();
+		jump ();
 
-		// If player is on the ground, allow to jump
+
+	}
+
+
+
+	//If player is grounded, allow to jump
+	void jump(){
 		if(grounded && Input.GetButtonDown("Jump")){
 			anim.SetBool ("Ground", false);
 			player.AddForce(new Vector2(0, jumpForce));
+			AudioManager.instance.PlaySingle (jumpSound);
 
 		}
 	}
@@ -87,7 +106,7 @@ public class PlayerController : MonoBehaviour {
 
 	//Kills the player in game
 	void KillPlayer(){
-
+		AudioManager.instance.PlaySingle (dieSound);
 		SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
 	}
 
@@ -138,13 +157,15 @@ public class PlayerController : MonoBehaviour {
 		floorLimit (col);
 		enemyStomp (col);
 		enemyCollision (col);
-		exit (col);
+		lavaBurn (col);
+		//exit (col);
 	}
 
 
 	//Collision detection for health pickup
 	void healthPickup(Collider2D col){
 		if (col.CompareTag ("Health")) {
+			AudioManager.instance.PlaySingle (healthSound);
 			addHealth (20);
 			gm.addPoints (10);
 			Destroy (col.gameObject);
@@ -154,6 +175,7 @@ public class PlayerController : MonoBehaviour {
 	//Collision detection for gem pickup
 	void gemPickup(Collider2D col){
 		if (col.CompareTag ("Gem")) {
+			AudioManager.instance.PlaySingle (gemSound);
 			gm.addPoints (100);
 			Destroy (col.gameObject);
 		}
@@ -170,6 +192,7 @@ public class PlayerController : MonoBehaviour {
 	//Collision for stomping an enemy
 	void enemyStomp(Collider2D col){
 		if(col.CompareTag("Stomp Checker")){
+			AudioManager.instance.PlaySingle (killSound);
 			StartCoroutine (kickBack (0.03f, 10));
 			Destroy (col.transform.parent.gameObject);
 			gm.addPoints (50);
@@ -179,6 +202,7 @@ public class PlayerController : MonoBehaviour {
 	//Collision for an enemy
 	void enemyCollision(Collider2D col){
 		if(col.CompareTag("Enemy")){
+			AudioManager.instance.PlaySingle (hurtSound);
 			takeDamage(20);
 			StartCoroutine (kickBack (50, 10));
 
@@ -188,16 +212,29 @@ public class PlayerController : MonoBehaviour {
 	//Collision for exit
 	void exit(Collider2D col){
 		if (col.CompareTag("Exit")){
+			AudioManager.instance.PlaySingle (finishSound);
 			gm.addPoints (500);
 			gm.SaveScore ();
-			gm.nextLevel ();
+			//gm.nextLevel ();
+			Application.Quit();
 		}
 	}
+
+	//Collision for lava
+	void lavaBurn(Collider2D col){
+		if(col.CompareTag("Lava")){
+			AudioManager.instance.PlaySingle (burnSound);
+			takeDamage(20);
+			StartCoroutine (kickBack (50, 10));
+		}
+	}
+		
 
 	//Player fires a projectile
 	void fireProjectile(){
 		if (Input.GetButtonDown ("Fire") && starCount > 0){
 			Instantiate (ninjaStar, firePoint.position, firePoint.rotation);
+			AudioManager.instance.PlaySingle (shootSound);
 			starCount--;
 		}
 	}

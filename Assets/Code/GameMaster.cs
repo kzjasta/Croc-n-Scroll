@@ -8,10 +8,13 @@ public class GameMaster : MonoBehaviour {
 	public Text pointsText;
 	private int levelsCompleted;
 	private HUD hud;
+	public Text eventText;
+	public string levelNumber;
 
 	void Start(){
 		getScore ();
-
+		levelNumber = "Level " + SceneManager.GetActiveScene ().buildIndex.ToString();
+		StartCoroutine (showMessage (showLevel(), 3));
 	}
 
 	void getScore(){
@@ -56,6 +59,19 @@ public class GameMaster : MonoBehaviour {
 		points += Mathf.FloorToInt (timeLeft);
 		Debug.Log (points);
 
+	}
+
+	//Displays messeage on screen
+	public IEnumerator showMessage(string message, float delay){
+		eventText.text = message;
+		eventText.enabled = true;
+		yield return new WaitForSeconds (3);
+		eventText.enabled = false;
+	}
+
+	//Returns a string containing the current level 
+	string showLevel(){
+		return levelNumber;
 	}
 
 

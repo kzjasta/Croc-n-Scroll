@@ -9,6 +9,8 @@ public class NinjaStarController : MonoBehaviour {
 	Animator anim;
 	public float speed;
 	public GameObject impactEffect; 
+	public AudioClip killSound;
+	public AudioClip impactSound;
 
 	// Use this for initialization
 	void Start () {
@@ -39,7 +41,7 @@ public class NinjaStarController : MonoBehaviour {
 
 		//Enemy collision
 		if(col.CompareTag("Enemy")){
-
+			AudioManager.instance.PlaySingle (killSound);
 			gm.addPoints (20);
 			Destroy (col.gameObject);
 			Destroy (this.gameObject);
@@ -47,8 +49,11 @@ public class NinjaStarController : MonoBehaviour {
 		}
 
 
+
 		else if (col.CompareTag ("Obstacle")) {
+			
 			Destroy (this.gameObject);
+			AudioManager.instance.PlaySingle (impactSound);
 			impactEfect ();
 		}
 

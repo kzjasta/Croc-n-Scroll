@@ -16,19 +16,18 @@ public class HUD : MonoBehaviour {
 
 
 	void Start(){
-
 		player = GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerController>();
-		levelNumber = "Level " + SceneManager.GetActiveScene ().buildIndex.ToString();
-		timeLeft = 100;
-		StartCoroutine (showMessage (showLevel(), 3));
+		timeLeft = 60;
 	}
 
 	void Update(){
 		healthText.text = player.currentHealth.ToString ();
 		starText.text = player.starCount.ToString ();
 		timer ();
+	}
 
-
+	public void test(){
+		Debug.Log ("WORKING");
 	}
 
 	//Game timer
@@ -40,17 +39,5 @@ public class HUD : MonoBehaviour {
 			SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
 		}
 	}
-
-	//Displays level number on screen
-	public IEnumerator showMessage(string message, float delay){
-		eventText.text = message;
-		eventText.enabled = true;
-		yield return new WaitForSeconds (3);
-		eventText.enabled = false;
-	}
-
-	//Returns a string containing the current level 
-	string showLevel(){
-		return levelNumber;
-	}
+		
 }

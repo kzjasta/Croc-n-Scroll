@@ -14,6 +14,12 @@ public class MainMenu : MonoBehaviour {
 			
 	}
 
+	void Update(){
+		if(Input.GetButtonDown("Cancel")){
+			Back();
+		}
+	}
+
 
 	//Starts the game at the beginning
 	public void StartGame(){
@@ -29,12 +35,19 @@ public class MainMenu : MonoBehaviour {
 			MainMenuUI.SetActive (true);
 			ControlsUI.SetActive (false);
 		}
-
 	}
 
 	//Exits the application
 	public void QuitGame(){
 		Application.Quit ();
+	}
+
+	//Return to main menu
+	public void Back(){
+		if (ControlsUI.activeInHierarchy){
+			ControlsUI.SetActive (false);
+			MainMenuUI.SetActive (true);
+		}
 	}
 }
 

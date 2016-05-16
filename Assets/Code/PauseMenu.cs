@@ -13,7 +13,12 @@ public class PauseMenu : MonoBehaviour {
 	}
 
 	void Update(){
+		pauseOnOff ();
 
+	}
+
+	//Toggles pause On/Off is "Start" button is pressed
+	void pauseOnOff(){
 		if (Input.GetButtonDown ("Pause")) {
 			paused = !paused;
 		}
@@ -26,25 +31,29 @@ public class PauseMenu : MonoBehaviour {
 		if (!paused) {
 			PauseUI.SetActive (false);
 			Time.timeScale = 1;
-			  
 		}
 	}
 
+	//Resumes gameplay
 	public void Resume(){
 		paused = false;
 	}
 
-
+	//Reloads the current scene
 	public void Restart(){
 		SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
 	}
 
+	//Returns player to the main menu
 	public void MainMenu(){
+		AudioManager.instance.music.Stop ();
 		SceneManager.LoadScene ("Main Menu");
 	}
 
+
+	//Quits the game
 	public void Quit(){
 		Application.Quit ();
-	}
+	}		
 }
  	
