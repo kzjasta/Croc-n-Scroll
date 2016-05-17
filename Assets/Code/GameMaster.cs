@@ -6,17 +6,46 @@ public class GameMaster : MonoBehaviour {
 
 	public int points;
 	public Text pointsText;
-	private int levelsCompleted;
-	private HUD hud;
 	public Text eventText;
-	public string levelNumber;
+	public int levelNumber;
+	public int progressNumber;
+	public float timeLeft;
+	public AudioClip dieSound;
+	public PlayerController player;
+	public Transform SpawnPoint;
+	public int playerLives;
 
 	void Start(){
+		AudioManager.instance.music.Play ();
+		player = GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerController> ();
+		playerLives = 3;
+		timeLeft = 60;
 		getScore ();
-		levelNumber = "Level " + SceneManager.GetActiveScene ().buildIndex.ToString();
-		StartCoroutine (showMessage (showLevel(), 3));
+		progressNumber = SceneManager.GetActiveScene ().buildIndex;
+		SaveProgress ();
+		StartCoroutine (showMessage (progressNumber.ToString(), 3));
+		Debug.Log(PlayerPrefs.GetInt ("Progress"));
 	}
 
+	//Kills the player in game
+	public void KillPlayer(){
+		loseLive ();
+		if (playerLives <= 0) {
+			Reset ();
+			SceneManager.LoadScene ("GameOver");
+		} else {
+			AudioManager.instance.PlaySingle (dieSound);
+			RespawnPlayer ();
+		}
+	}
+
+	//Restarts the player at the respawn point
+	public void RespawnPlayer(){
+		player.transform.position = SpawnPoint.transform.position;
+		player.currentHealth = 100;
+	}
+
+	//If level 1, delete score, otherwise get score
 	void getScore(){
 		if (PlayerPrefs.HasKey ("Score")) {
 			if (SceneManager.GetActiveScene ().buildIndex == 1) {
@@ -32,9 +61,14 @@ public class GameMaster : MonoBehaviour {
 		pointsText.text = (points.ToString()); 
 	}
 
-
+	//Adds points to the score
 	public void addPoints(int pnts){
 		points += pnts;
+	}
+
+	//Removes a live
+	public void loseLive(){
+		playerLives--;
 	}
 
 
@@ -43,39 +77,27 @@ public class GameMaster : MonoBehaviour {
 		PlayerPrefs.SetInt ("Score", points);
 	}
 
-	//Adds 
-	public void progressTracker(){
-		levelsCompleted++;
+	//Saves the players progress
+	public void SaveProgress(){
+		if (progressNumber == 1) {
+			PlayerPrefs.SetInt ("Progress", levelNumber);
+		} else {
+			PlayerPrefs.DeleteKey ("Progress");
+		}
+		PlayerPrefs.SetInt ("Progress", progressNumber);
 	}
-
-
-	//Loads the next level in the build index
-	public void nextLevel(){
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-	}
-
-	//Calculates the total score
-	public void calcScore(float timeLeft){
-		points += Mathf.FloorToInt (timeLeft);
-		Debug.Log (points);
-
-	}
+		
 
 	//Displays messeage on screen
 	public IEnumerator showMessage(string message, float delay){
-		eventText.text = message;
+		eventText.text = "Level " + message;
 		eventText.enabled = true;
 		yield return new WaitForSeconds (3);
 		eventText.enabled = false;
 	}
 
-	//Returns a string containing the current level 
-	string showLevel(){
-		return levelNumber;
+	void Reset(){
+		PlayerPrefs.DeleteKey ("Progress");
+		PlayerPrefs.DeleteKey ("Score");
 	}
-
-
-
-
-
 }

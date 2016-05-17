@@ -38,7 +38,6 @@ public class PlayerController : MonoBehaviour {
 	public AudioClip killSound;
 	public AudioClip hurtSound;
 	public AudioClip finishSound;
-	public AudioClip dieSound;
 
 
 	void Start () {
@@ -49,7 +48,6 @@ public class PlayerController : MonoBehaviour {
 		hud = GameObject.FindGameObjectWithTag ("HUD").GetComponent<HUD> ();
 		enemy = GameObject.FindGameObjectWithTag ("Enemy").GetComponent<Enemies> ();
 		starCount = 5;
-
 
 
 	}
@@ -74,13 +72,9 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void Update(){
-
-
 		fireProjectile ();
 		checkHealth ();
 		jump ();
-
-
 	}
 
 
@@ -91,7 +85,6 @@ public class PlayerController : MonoBehaviour {
 			anim.SetBool ("Ground", false);
 			player.AddForce(new Vector2(0, jumpForce));
 			AudioManager.instance.PlaySingle (jumpSound);
-
 		}
 	}
 
@@ -102,14 +95,7 @@ public class PlayerController : MonoBehaviour {
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
-
-
-	//Kills the player in game
-	void KillPlayer(){
-		AudioManager.instance.PlaySingle (dieSound);
-		SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
-	}
-
+		
 	//Deals damage to the player
 	public void takeDamage(int dmg){
 		currentHealth -= dmg;
@@ -129,22 +115,17 @@ public class PlayerController : MonoBehaviour {
 		}
 
 		if (currentHealth <= 0) {
-			KillPlayer (); 
+			gm.KillPlayer (); 
 		}
 			
 	}
 
 	//Knocks the player backwards
 	public IEnumerator kickBack(float knockDur, float knockPwr){
-
 		float timer = 0;
 
 		if(knockDur > timer) {
-			//timer += Time.deltaTime;
-
 			player.velocity = new Vector2 (-knockPwr, knockPwr);
-
-
 		}
 
 		yield return 0;
@@ -154,11 +135,9 @@ public class PlayerController : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col){
 		healthPickup (col);
 		gemPickup (col);
-		floorLimit (col);
 		enemyStomp (col);
 		enemyCollision (col);
 		lavaBurn (col);
-		//exit (col);
 	}
 
 
@@ -185,7 +164,7 @@ public class PlayerController : MonoBehaviour {
 	//Collision for floor limits
 	void floorLimit(Collider2D col){
 		if (col.CompareTag ("Floor Limit")) {
-			KillPlayer ();
+			gm.KillPlayer ();
 		}
 	}
 
@@ -205,18 +184,6 @@ public class PlayerController : MonoBehaviour {
 			AudioManager.instance.PlaySingle (hurtSound);
 			takeDamage(20);
 			StartCoroutine (kickBack (50, 10));
-
-		}
-	}
-
-	//Collision for exit
-	void exit(Collider2D col){
-		if (col.CompareTag("Exit")){
-			AudioManager.instance.PlaySingle (finishSound);
-			gm.addPoints (500);
-			gm.SaveScore ();
-			//gm.nextLevel ();
-			Application.Quit();
 		}
 	}
 

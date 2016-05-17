@@ -51,9 +51,11 @@
      <Compile Include="Assets\Code\Enemies.cs" />
      <Compile Include="Assets\Code\EnemyPatrol.cs" />
      <Compile Include="Assets\Code\Exit.cs" />
+     <Compile Include="Assets\Code\FloorLimit.cs" />
      <Compile Include="Assets\Code\FlyingEnemyPatrol.cs" />
      <Compile Include="Assets\Code\FollowPath.cs" />
      <Compile Include="Assets\Code\GameMaster.cs" />
+     <Compile Include="Assets\Code\GameOver.cs" />
      <Compile Include="Assets\Code\Grid.cs" />
      <Compile Include="Assets\Code\HUD.cs" />
      <Compile Include="Assets\Code\Lava.cs" />

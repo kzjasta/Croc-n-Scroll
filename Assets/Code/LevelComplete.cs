@@ -10,8 +10,7 @@ public class LevelComplete : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		AudioManager.instance.PlaySingle (finishSound);
-
-		showPoints (PlayerPrefs.GetInt("Score"));
+		showPoints (GetScore());
 	}
 	
 	// Update is called once per frame
@@ -21,8 +20,9 @@ public class LevelComplete : MonoBehaviour {
 
 	void Continue(){
 		if(Input.GetButtonDown("Jump")){
-			//checkNextLevel ();
-			Application.Quit();
+			Debug.Log (PlayerPrefs.GetInt("Progress"));
+			SceneManager.LoadScene("Level " + PlayerPrefs.GetInt("Progress"));
+			AudioManager.instance.music.Play ();
 		}
 	}
 
@@ -32,15 +32,9 @@ public class LevelComplete : MonoBehaviour {
 		pointsText.text = points.ToString ();
 	}
 
-
-	//Checks what level to load next
-	void checkNextLevel(){
-		if (SceneManager.GetActiveScene().buildIndex == 1) {
-			SceneManager.LoadScene ("Level 1");
-			//Debug.Log (SceneManager.GetActiveScene);
-		}
-		else if(SceneManager.GetActiveScene().buildIndex == 2){
-			SceneManager.LoadScene ("Level 2");
-		}
+	int GetScore(){
+		int score = PlayerPrefs.GetInt ("Score");
+		return score;
 	}
+		
 }

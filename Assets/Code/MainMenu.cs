@@ -7,11 +7,13 @@ public class MainMenu : MonoBehaviour {
 
 	public GameObject MainMenuUI;
 	public GameObject ControlsUI;
+	public GameMaster gm;
 
 	void Start(){
 		MainMenuUI.SetActive (true);
 		ControlsUI.SetActive (false);
-			
+		gm = GameObject.FindGameObjectWithTag ("Game Master").GetComponent<GameMaster> ();
+		gm.playerLives = 3;
 	}
 
 	void Update(){

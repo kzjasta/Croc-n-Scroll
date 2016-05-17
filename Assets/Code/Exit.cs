@@ -17,7 +17,9 @@ public class Exit : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D col){
 		if(col.CompareTag("Player")){
+			gm.progressNumber++;
 			gm.addPoints (500);
+			gm.SaveProgress ();
 			gm.SaveScore ();
 			AudioManager.instance.music.Stop ();	
 			SceneManager.LoadScene ("LevelComplete");

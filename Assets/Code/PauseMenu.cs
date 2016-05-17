@@ -47,6 +47,7 @@ public class PauseMenu : MonoBehaviour {
 	//Returns player to the main menu
 	public void MainMenu(){
 		AudioManager.instance.music.Stop ();
+		PlayerPrefs.DeleteKey ("Progress");
 		SceneManager.LoadScene ("Main Menu");
 	}
 
