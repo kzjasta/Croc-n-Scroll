@@ -22,6 +22,7 @@ public class HUD : MonoBehaviour {
 		player = GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerController>();
 		gm = GameObject.FindGameObjectWithTag("Game Master").GetComponent<GameMaster>();
 		timeLeft = 60;
+		player.starCount = 5;
 	}
 
 	void Update(){

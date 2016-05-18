@@ -26,6 +26,7 @@ public class MainMenu : MonoBehaviour {
 	//Starts the game at the beginning
 	public void StartGame(){
 		SceneManager.LoadScene ("Level 1");
+		gm.Reset ();
 	}
 
 	//Displays the game controls page

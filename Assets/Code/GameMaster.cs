@@ -96,7 +96,8 @@ public class GameMaster : MonoBehaviour {
 		eventText.enabled = false;
 	}
 
-	void Reset(){
+	public void Reset(){
+		levelNumber = 1;
 		PlayerPrefs.DeleteKey ("Progress");
 		PlayerPrefs.DeleteKey ("Score");
 	}

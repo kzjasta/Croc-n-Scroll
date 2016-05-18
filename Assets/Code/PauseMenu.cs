@@ -8,13 +8,11 @@ public class PauseMenu : MonoBehaviour {
 	private bool paused = false;
 
 	void Start(){
-		
 		PauseUI.SetActive (false);
 	}
 
 	void Update(){
 		pauseOnOff ();
-
 	}
 
 	//Toggles pause On/Off is "Start" button is pressed

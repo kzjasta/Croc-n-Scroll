@@ -18,9 +18,9 @@ public class LevelComplete : MonoBehaviour {
 		Continue ();
 	}
 
+	//Loads the next level in the build index
 	void Continue(){
 		if(Input.GetButtonDown("Jump")){
-			Debug.Log (PlayerPrefs.GetInt("Progress"));
 			SceneManager.LoadScene("Level " + PlayerPrefs.GetInt("Progress"));
 			AudioManager.instance.music.Play ();
 		}
@@ -32,6 +32,7 @@ public class LevelComplete : MonoBehaviour {
 		pointsText.text = points.ToString ();
 	}
 
+	//Returns the player score
 	int GetScore(){
 		int score = PlayerPrefs.GetInt ("Score");
 		return score;
