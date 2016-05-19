@@ -6,9 +6,11 @@ public class LevelComplete : MonoBehaviour {
 
 	public AudioClip finishSound;
 	public Text pointsText;
+	public GameMaster gm;
 
 	// Use this for initialization
 	void Start () {
+		gm = GameObject.FindGameObjectWithTag ("Game Master").GetComponent<GameMaster> ();
 		AudioManager.instance.PlaySingle (finishSound);
 		showPoints (GetScore());
 	}
@@ -21,8 +23,9 @@ public class LevelComplete : MonoBehaviour {
 	//Loads the next level in the build index
 	void Continue(){
 		if(Input.GetButtonDown("Jump")){
-			SceneManager.LoadScene("Level " + PlayerPrefs.GetInt("Progress"));
+			SceneManager.LoadScene ("Level " + PlayerPrefs.GetInt("Progress"));
 			AudioManager.instance.music.Play ();
+
 		}
 	}
 

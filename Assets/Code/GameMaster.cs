@@ -7,16 +7,15 @@ public class GameMaster : MonoBehaviour {
 	public int points;
 	public Text pointsText;
 	public Text eventText;
-	public int levelNumber;
 	public int progressNumber;
 	public float timeLeft;
 	public AudioClip dieSound;
 	public PlayerController player;
 	public Transform SpawnPoint;
 	public int playerLives;
+	public int levelNumber;
 
 	void Start(){
-		AudioManager.instance.music.Play ();
 		player = GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerController> ();
 		playerLives = 3;
 		timeLeft = 60;
@@ -96,9 +95,10 @@ public class GameMaster : MonoBehaviour {
 		eventText.enabled = false;
 	}
 
+	//Resets the player prefs
 	public void Reset(){
-		levelNumber = 1;
 		PlayerPrefs.DeleteKey ("Progress");
-		PlayerPrefs.DeleteKey ("Score");
 	}
+
+
 }

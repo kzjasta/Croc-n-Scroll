@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour {
 		hud = GameObject.FindGameObjectWithTag ("HUD").GetComponent<HUD> ();
 		enemy = GameObject.FindGameObjectWithTag ("Enemy").GetComponent<Enemies> ();
 		starCount = 5;
-
+		Debug.Log (gm.levelNumber);
 
 	}
 

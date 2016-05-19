@@ -14,6 +14,8 @@ public class MainMenu : MonoBehaviour {
 		ControlsUI.SetActive (false);
 		gm = GameObject.FindGameObjectWithTag ("Game Master").GetComponent<GameMaster> ();
 		gm.playerLives = 3;
+		gm.levelNumber = 0;
+		gm.Reset ();
 	}
 
 	void Update(){
@@ -25,6 +27,7 @@ public class MainMenu : MonoBehaviour {
 
 	//Starts the game at the beginning
 	public void StartGame(){
+		AudioManager.instance.music.Play ();
 		SceneManager.LoadScene ("Level 1");
 		gm.Reset ();
 	}
