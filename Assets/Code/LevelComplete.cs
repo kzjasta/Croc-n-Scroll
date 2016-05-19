@@ -23,9 +23,12 @@ public class LevelComplete : MonoBehaviour {
 	//Loads the next level in the build index
 	void Continue(){
 		if(Input.GetButtonDown("Jump")){
-			SceneManager.LoadScene ("Level " + PlayerPrefs.GetInt("Progress"));
-			AudioManager.instance.music.Play ();
-
+			if (PlayerPrefs.GetInt ("Progress") == 5) {
+				SceneManager.LoadScene ("Main Menu");
+			} else {
+				SceneManager.LoadScene ("Level " + PlayerPrefs.GetInt("Progress"));
+				AudioManager.instance.music.Play ();
+			}
 		}
 	}
 
