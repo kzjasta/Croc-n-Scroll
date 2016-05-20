@@ -1,12 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-public class LevelComplete : MonoBehaviour {
+using UnityEngine.SceneManagement;
+
+public class GameComplete : MonoBehaviour {
 
 	public AudioClip finishSound;
 	public Text pointsText;
 	public GameMaster gm;
+
 
 	// Use this for initialization
 	void Start () {
@@ -20,18 +22,13 @@ public class LevelComplete : MonoBehaviour {
 		Continue ();
 	}
 
-	//Loads the next level in the build index
+
+	//Loads the main menu
 	void Continue(){
 		if(Input.GetButtonDown("Jump")){
-			if (PlayerPrefs.GetInt ("Progress") == 6) {
-				SceneManager.LoadScene ("Game Complete");
-			} else {
-				SceneManager.LoadScene ("Level " + PlayerPrefs.GetInt("Progress"));
-				AudioManager.instance.music.Play ();
-			}
+			SceneManager.LoadScene ("Main Menu");
 		}
 	}
-
 
 	//Sets points text object to value of points
 	void showPoints(int points){
@@ -43,5 +40,6 @@ public class LevelComplete : MonoBehaviour {
 		int score = PlayerPrefs.GetInt ("Score");
 		return score;
 	}
-		
 }
+
+

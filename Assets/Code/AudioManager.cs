@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//Code derived from Unity audio tutorials
 public class AudioManager : MonoBehaviour {
 
 	public AudioSource effect;

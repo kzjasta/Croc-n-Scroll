@@ -131,7 +131,7 @@ public class PlayerController : MonoBehaviour {
 		yield return 0;
 	}
 
-	//Checks for possible colisions
+	//Checks for possible collisions
 	void OnTriggerEnter2D(Collider2D col){
 		healthPickup (col);
 		gemPickup (col);

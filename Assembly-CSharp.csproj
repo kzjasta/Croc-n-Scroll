@@ -52,6 +52,7 @@
      <Compile Include="Assets\Code\Exit.cs" />
      <Compile Include="Assets\Code\FloorLimit.cs" />
      <Compile Include="Assets\Code\FlyingEnemyPatrol.cs" />
+     <Compile Include="Assets\Code\GameComplete.cs" />
      <Compile Include="Assets\Code\GameMaster.cs" />
      <Compile Include="Assets\Code\GameOver.cs" />
      <Compile Include="Assets\Code\HUD.cs" />
@@ -59,7 +60,6 @@
      <Compile Include="Assets\Code\LevelComplete.cs" />
      <Compile Include="Assets\Code\MainMenu.cs" />
      <Compile Include="Assets\Code\NinjaStarController.cs" />
-     <Compile Include="Assets\Code\PathDefinition.cs" />
      <Compile Include="Assets\Code\PauseMenu.cs" />
      <Compile Include="Assets\Code\Pickups.cs" />
      <Compile Include="Assets\Code\PlayerController.cs" />

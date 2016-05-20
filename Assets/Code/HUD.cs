@@ -39,6 +39,7 @@ public class HUD : MonoBehaviour {
 		timerText.text = timeLeft.ToString ("f0");
 
 		if (timeLeft <= 0) {
+			gm.SaveScore ();
 			gm.KillPlayer ();
 		}
 	}
